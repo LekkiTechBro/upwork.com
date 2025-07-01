@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up for Upwork | Client &amp; Freelancer Accounts</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=deployed_code_account"
+    />
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#!">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaooLIVJ_bU0u-MN6OvIX10F63HBzgwtttxQ&s"
+            alt=""
+            width="80"
+          />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <section class="section">
+          <div class="container">
+            <h1>Join as a client or freelancer</h1>
+
+            <div class="options">
+                <a href="#!" class="option" onclick="document.getElementById('radio').checked = true; return false;">
+                    <div id="client">
+                        <span class="material-symbols-outlined">
+                        deployed_code_account
+                        </span>
+                        <input type="radio" name="user_type" id="radio"/>
+                    </div>
+
+                    <p>I'm a client, hiring for a project</p>
+                </a>
+
+                <a href="#!" class="option" onclick="document.getElementById('radio1').checked = true; return false;">
+                    <div id="client">
+                        <span class="material-symbols-outlined">
+                        deployed_code_account
+                        </span>
+                        <input type="radio" name="user_type" id="radio1" />
+                    </div>
+
+                    <p>I'm a freelancer, looking for work</p>
+                </a>
+            </div>
+
+            <button id="btn" disabled>Create Account</button>
+
+            <p class="terms">
+                <span>Already have an account?</span>
+                <a href="#!">Log In</a>
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+      
+  </body>
+</html>
