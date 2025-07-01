@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width:100% ;
+}
+.parent{
+    margin: auto;
+    display: flex;
+    width:  90%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    margin-right: 20px;
+    margin-bottom: 3px;
+}
+.logo span{
+    font-size: 30px;
+    display: none;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left ul{
+    gap: 25px;
+    list-style-type: none;
+    display: flex;
+}
+.navlink li{
+    display: flex;
+}
+.navlink a{
+    text-decoration: none;
+    color: black;
+}
+.navlink a:hover{
+    color: rgb(20,168,0);
+}
+#spann{
+    width: 15px;
+}
+.searchwrapper{
+    align-items: center;
+    border: 2px solid rgb(143,142,142);
+    border-radius: 8px;
+    display: flex;
+}
+.right{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+.search:hover{
+    border-radius: 7px;
+    border: 2px solid rgb(143,142,142);
+}
+.search input{
+    outline: none;
+    border: none;
+}
+#select{
+    padding: 9px;
+}
+#select:hover {
+border: 2px solid rgb(143,142,142);
+border-radius: 7px;
+}
+.log a{
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.log{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+.log button{
+    background-color: rgb(16,138,0);
+    padding: 8px 25px;
+    color: white;
+}
+#searchh{
+    display: none;
+}
+.right .nostyle{
+    display: none;
+}
+.logo{
+    display: flex;
+}
+.head{
+padding-top: 20px;
+}
+.headcont{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+.headcont a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.headcont a:hover{
+    color: rgb(20,168,0);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 55px;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    margin: auto;
+}
+
+.content{
+    color: #5e6d55;
+    letter-spacing: .6px;
+    font-family: Neuemontreal, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.about p {
+    margin-top: -10px;
+    color: rgb(0, 30, 0);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 28.6px;
+}
+
+.CEO{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.CEO img {
+    width: 100px;
+}
+
+.CEO div {
+    display: flex;
+    flex-direction: column;
+}
+
+.CEO h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(0, 30, 0);
+    line-height: 30px;
+}
+
+.CEO p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(0, 30, 0);
+    margin-top: -20px;
+}
+
+.mission{
+    color: rgb(20, 168, 0);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+}
+
+.hayden{
+    margin-top: 10px;    
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.btn button{
+    background-color: rgb(16,138,0);
+    color: white;
+    font-weight: 500;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+@media(max-width:1620px){
+    .signlink{
+   padding-top: 260px; 
+}
+}
+@media(max-width:1502px){
+.parent{
+    width: 95%;
+    padding: none;
+}
+.headcont{
+    width: 95%;
+}
+}
+@media(max-width:1400px){
+    .signlink{
+   padding-top: 250px; 
+}
+}
+
+@media(max-width:1280px){
+    .signlink{
+   padding-top: 240px; 
+}
+/* error */
+    .searchwrapper{
+        display: none;
+}
+#searchh{
+   display: block;
+}
+}
+@media(max-width:1190px){
+    .signlink{
+   padding-top: 50px; 
+}
+}
+
+@media(max-width:995px){
+.navlink{
+    display: none;
+}
+.headcont{
+    display: none;
+}
+.logo span{
+    display: inline-block;
+}
+.log a{
+    display: none;
+}
+.log button{
+    display: none;
+}
+.right .nostyle{
+    display: block;
+    padding: 5px 25px;
+    border: none;
+    background: inherit;
+}
+}
+
+@media(max-width:770px){
+/* youll */
+.youll{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.signlink{
+   padding-top: 20px; 
+}
+.bcont{
+padding-top: 20px;
+}
+
+}
+@media(max-width:480px){
+    .CEO{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+}

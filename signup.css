@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 1.25rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+}
+
+section {
+    padding: 6rem 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container h1 {
+    margin-bottom: 3.2rem;
+    color: rgb(24, 24, 24);
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    margin-bottom: 1.25rem;
+    cursor: pointer;
+    flex-wrap: wrap ;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.options .option {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid black;
+    color: rgb(24, 24, 24);
+}
+
+#client{
+    margin-bottom: 1.7rem;
+}
+
+#client span{
+    font-size: 35px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.788);
+}
+
+input[type="radio"] {
+    transform: scale(1.7);
+    cursor: pointer;
+    accent-color: rgb(16,138,0);
+}
+
+.option p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.4px;
+    color: rgb(24, 24, 24);
+}
+
+.options .option:hover {
+    background-color: rgb(245, 245, 245);
+    outline: 1.5px solid rgb(24, 24, 24);
+}
+
+.options .option:focus {
+    background-color: rgb(245, 245, 245);
+    outline: 1.5px solid rgb(24, 24, 24);
+}
+
+.options .option div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    /* color: white; */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.terms{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.terms span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(24, 24, 24);
+}
+
+.terms a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(16, 138, 0);
+}
+
+.option:focus button {
+    background-color: rgb(16, 138, 0);
+    color: white;
+}
+@media (max-width: 700) {
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .options {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .options .option {
+        width: 100%;
+        margin-bottom: 1.25rem;
+    }
+}

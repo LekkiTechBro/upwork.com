@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upwork Login - Log in to your Upwork account</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
+    <link rel="shortcut icon" href="https://images.icon-icons.com/3781/PNG/512/upwork_icon_231982.png" type="image/x-icon">
+    <link rel="stylesheet" href="./login.css">
+    <title>Upword login - log in to your Upwork account</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#!">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaooLIVJ_bU0u-MN6OvIX10F63HBzgwtttxQ&s" alt="" width="80">
+            </a>
+        </div>
+    </header>
+
+    <section class="login">
+        <div class="container">
+            <h3>Log in to Upwork</h3>
+
+            <form action="#!">
+                <div class="input-group">
+                    <span class="material-symbols-outlined">person</span>
+                    <input type="text" placeholder="Username or Email" required autocomplete="username">
+                </div>
+
+                <button class="btn">Continue</button>
+
+                <div class="divider">
+                    <hr>
+                    <span>or</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <button class="btn-google">
+                        <div class="google">
+                            <img src="https://img.icons8.com/color/512/google-logo.png" alt="" width="20" height="20">
+                        </div>
+                        
+                        <a href="#!">Continue with Google</a>
+                    </button>
+                </div>
+
+                <div>
+                    <button class="btn-apple">
+                        <div class="apple">
+                            <img src="https://cdn-icons-png.flaticon.com/512/0/747.png" alt="" width="12" height="12">
+                        </div>
+                        
+                        <a href="#!">Continue with Apple</a>
+                    </button>
+                </div>
+
+                <div class="signup">
+                    <p>Don't have an Upwork account?</p>
+
+                    <div>
+                        <a href="#!">Sign up</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>© 2015 - 2025 Upwork® Global Inc.</p>
+            <a href="#!">• Privacy Policy •</a>
+        </div>
+    </footer>
+
+
+    <script>
+        const header = document.querySelector("header");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 0) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+        });
+
+    </script>
+</body>
+</html>
