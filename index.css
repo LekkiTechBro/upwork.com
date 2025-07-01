@@ -236,14 +236,14 @@
     gap: 40px;
 }
 
-.sect1info {}
+/* .sect1info {} */
 
 .firstP {
     font-family: sans-serif;
     font-size: 3rem;
 }
 
-.sect1info span {}
+/* .sect1info span {} */
 
 .sect1info .pps {
     padding-left: 30px;
